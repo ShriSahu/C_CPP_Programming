@@ -55,3 +55,16 @@
 //
 //}
 
+//*********Bitwise operator*********************
+#include<iostream>
+using namespace std;
+int main()
+{
+	char x = 10;
+
+	int y = (int )x << 1;
+
+	cout << y << endl;
+
+    return 0;
+}
